@@ -1,0 +1,25 @@
+/* Rectangles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .rectangle-container {
+    display: flex;
+    width: 100vw;
+  }
+  
+  .rectangle {
+    flex: 1;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    transition: flex-grow 0.3s ease;
+  }
+  
+  .rectangle:hover {
+    flex-grow: 2;
+  }
+  
