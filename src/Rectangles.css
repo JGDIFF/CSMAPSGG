@@ -10,6 +10,7 @@ body {
   width: 100vw;
   min-height: 100vh; /* Ensure it covers the viewport initially */
   background: linear-gradient(to bottom, #a9a9a9, #000000); /* Gradient from sheet metal gray to black */
+  padding-top: 60px; /* Add padding to account for the navbar height */
 }
 
 .rectangle {
@@ -18,6 +19,7 @@ body {
   background-size: cover;
   background-position: center;
   transition: flex-grow 0.3s ease;
+  text-decoration: none; /* Remove underline from links */
 }
 
 .rectangle:hover {

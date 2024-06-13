@@ -1,17 +1,20 @@
 // Rectangles.js
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link for navigation
 import './Rectangles.css'; // Import CSS file for styling
 
 function Rectangles() {
+  const backgroundImageUrl = "/media/mirage.jpg"; // Path to the image
+
   return (
     <div className="rectangle-container">
-      <div className="rectangle"></div>
-      <div className="rectangle"></div>
-      <div className="rectangle"></div>
-      <div className="rectangle"></div>
-      <div className="rectangle"></div>
-      <div className="rectangle"></div>
-      <div className="rectangle"></div>
+      <Link to="/new-page" className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></Link>
+      <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
+      <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
+      <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
+      <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
+      <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
+      <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
     </div>
   );
 }
