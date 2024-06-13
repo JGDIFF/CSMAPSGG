@@ -1,7 +1,7 @@
 // HomePage.js
 import React from 'react';
-import Navbar from './Navbar'; // Import Navbar component
-import Rectangles from './Rectangles'; // Import Rectangles component
+import Navbar from './components/Navbar'; // Import Navbar component
+import Rectangles from './components/Rectangles'; // Import Rectangles component
 
 function HomePage() {
   return (

@@ -1,7 +1,7 @@
 // Rectangles.js
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link for navigation
-import './Rectangles.css'; // Import CSS file for styling
+import '../styles/Rectangles.css'; // Import CSS file for styling
 
 function Rectangles() {
   const backgroundImageUrl = "/media/mirage.jpg"; // Path to the image
