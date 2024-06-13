@@ -1,0 +1,30 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .github-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .footer-right {
+    font-size: 14px;
+  }
+  
