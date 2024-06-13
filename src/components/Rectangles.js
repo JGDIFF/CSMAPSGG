@@ -8,7 +8,7 @@ function Rectangles() {
 
   return (
     <div className="rectangle-container">
-      <Link to="/new-page" className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></Link>
+      <Link to="/mirage" className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></Link>
       <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
       <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
       <div className="rectangle" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
