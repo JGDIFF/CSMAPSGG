@@ -7,6 +7,6 @@ CSMAPS.gg is a website dedicated to showcasing all of the current maps in Counte
 Alexander Harttree
 
 ## Features
-- Display all current maps in Counter Strike 2.
-- Show videos and pictures of each map.
-- Provide detailed information and history about each map's development.
+- Display all current Active Duty maps in Counter Strike 2.
+- Provide detailed information and history about each map's history and development.
+- Provide an interactive 3D model of each map that users can explore.
