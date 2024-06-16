@@ -23,5 +23,5 @@ body {
 }
 
 .rectangle:hover {
-  flex-grow: 2;
+  flex-grow: 1.6;
 }
