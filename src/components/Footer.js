@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactComponent as GitHubIcon } from '/public/media/github-mark.svg'; // Assuming you have an SVG file for GitHub icon
 import '../styles/Footer.css';
 
 function Footer() {
@@ -7,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <GitHubIcon className="github-icon" />
+          <img src={`${process.env.PUBLIC_URL}/media/github-mark.svg`} alt="GitHub" className="github-icon" />
           <span className="footer-text">CSMAPS.GG</span>
         </div>
         <div className="footer-right">
