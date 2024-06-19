@@ -1,7 +1,7 @@
-// Mirage.js
+// Inferno.js
 import React from 'react';
 
-function Mirage() {
+function Inferno() {
   return (
     <div>
       <h1>Welcome to the New Page</h1>
@@ -10,4 +10,4 @@ function Mirage() {
   );
 }
 
-export default Mirage;
+export default Inferno;

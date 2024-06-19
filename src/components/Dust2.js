@@ -1,7 +1,7 @@
-// Mirage.js
+// Dust2.js
 import React from 'react';
 
-function Mirage() {
+function Dust2() {
   return (
     <div>
       <h1>Welcome to the New Page</h1>
@@ -10,4 +10,4 @@ function Mirage() {
   );
 }
 
-export default Mirage;
+export default Dust2;

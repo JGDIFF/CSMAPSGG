@@ -1,7 +1,7 @@
-// Mirage.js
+// Ancient.js
 import React from 'react';
 
-function Mirage() {
+function Ancient() {
   return (
     <div>
       <h1>Welcome to the New Page</h1>
@@ -10,4 +10,4 @@ function Mirage() {
   );
 }
 
-export default Mirage;
+export default Ancient;
