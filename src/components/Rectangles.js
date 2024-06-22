@@ -11,7 +11,7 @@ function Rectangles() {
   const backgroundImageUrl5 = "/media/vertigo.png"; // Path to the image
   const backgroundImageUrl6 = "/media/ancient.jpg"; // Path to the image
   const backgroundImageUrl7 = "/media/anubis.jpg"; // Path to the image
-  const logoUrl1 = "/media/logos/mirage-logo.png"; // Path to the logo image
+  const mirageLogoUrl = "/media/logos/mirage-logo.png"; // Path to the logo image
 
   return (
     <div className="rectangle-container">
